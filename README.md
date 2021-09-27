@@ -4,8 +4,8 @@ Inicio: 23/09/2021
 Conclusão: 27/09/2021
 
 > Escopo do projeto: Codificar layout seguindo o wireframe disponibilizado através do link <a href="https://github.com/vnda/frontend-challenge-junior">Vnda challenge</a> 
-
 > Stacks utilizadas: HTML, CSS e Javascript puros.
+> Autor: Douglas Ghiraldello
 
 Preview do projeto finalizado: <a href="https://douglasgrodrigues.github.io/frontend-vnda-challenge/dist/">Projeto</a>  
 
