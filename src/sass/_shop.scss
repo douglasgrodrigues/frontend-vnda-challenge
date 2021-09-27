@@ -1,20 +1,23 @@
 #shop {
 	display: flex;
-	background:$background-shop;
+	background: $background-shop;
 	width: 90%;
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
+	
 
 .box-img {
   padding: 80px 0 80px 80px;
   display: flex;
+  
 }
 
 .box1 {
   padding: 60px;
   flex: 1 1 250px;
-  max-width: 450px;
+
+  border: 1px solid red;
   h1 {
     font-size: 3.6rem;
     line-height: 1.1;
@@ -27,7 +30,9 @@
 .box-swiper {
   flex: 1 1 250px;
   align-items: center;
-  margin-right: -15%;
+
+  border: 1px solid red;
+  width: 100%;
 }
 .swiper {
 	border-radius: 10px;
