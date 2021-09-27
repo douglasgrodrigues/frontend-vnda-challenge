@@ -4,6 +4,10 @@
   position: relative;
   width: 90%; 
 
+  @media (max-width: 1024px) {
+    width: 100%; 
+  }
+
   .cases {
   width: 100%;
   display: flex;
