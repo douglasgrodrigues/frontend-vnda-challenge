@@ -488,78 +488,73 @@ a:hover {
   }
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 #shop {
+  max-width: 90%;
+  background: #DDDDDD;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #DDDDDD;
-  width: 90%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  padding: 80px;
+  font-size: 1.2em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /*=========================*/
 }
 
-#shop .box-img {
-  padding: 80px 0 80px 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+#shop h1 {
+  font-size: 3em;
 }
 
-#shop .box1 {
-  padding: 60px;
+#shop p {
+  line-height: 1.3em;
+}
+
+@media (max-width: 1000px) {
+  #shop {
+    max-width: 100%;
+    text-align: center;
+  }
+  #shop h1 {
+    font-size: 1em;
+  }
+  #shop p {
+    font-size: .8em;
+  }
+}
+
+#shop .swiper-shop {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 250px;
-          flex: 1 1 250px;
-  border: 1px solid red;
+      -ms-flex: 1 1 350px;
+          flex: 1 1 350px;
+  margin-right: -14%;
 }
 
-#shop .box1 h1 {
-  font-size: 3.6rem;
-  line-height: 1.1;
+@media (max-width: 768px) {
+  #shop .swiper-shop {
+    margin-right: 0;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
 }
 
-#shop .box1 p {
-  font-size: 20px;
-}
-
-#shop .box-swiper {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 250px;
-          flex: 1 1 250px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1px solid red;
-  width: 100%;
-}
-
-#shop .swiper {
-  border-radius: 10px;
-  max-width: 620px;
-  width: 100%;
-  max-height: 380px;
-  min-height: auto;
+#shop .swiper-shop .swiper {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 700px) {
-  #shop .swiper {
-    padding: 0;
-    width: 400px;
-    height: 200px;
-    margin-left: 30px;
-  }
-}
-
-#shop .swiper-slide {
+#shop .swiper-shop .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -577,8 +572,59 @@ a:hover {
   align-items: center;
 }
 
-#shop .swiper-slide img {
+#shop .swiper-shop .swiper-slide img {
   width: 100%;
+}
+
+/*=========================*/
+.shop-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  margin: 0 10px;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .shop-img {
+    padding: 1.3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .shop-img {
+    padding: 0;
+  }
+}
+
+.shop-about {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 300px;
+          flex: 3 1 300px;
+  margin: 0 10px;
+  padding-right: 20%;
+}
+
+@media (max-width: 768px) {
+  .shop-about {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .shop-about {
+    font-size: .8em;
+    padding: .5em;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn-shop {
+  width: 80%;
 }
 
 .glow-on-hover {
@@ -735,7 +781,7 @@ a:hover {
   width: 100%;
 }
 
-#insta .insta-img {
+#insta .box-img {
   padding: 60px 40px 0 40px;
 }
 

@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 		
 		<title>Vnda - Tecnologia em E-commerce</title>
 		
@@ -13,7 +13,8 @@
 		<!-- Font Awesome-->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 		
 		<!-- Swiper -->
-		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>	
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="css/style-swiper.css" />		
 		
 	</head>
 	
@@ -146,14 +147,13 @@
 		</div>
 
 		<section id="shop">
-			<div class="box-img">
-				<img class="img-shop" src="../dist/assets/img-insta2.jpg">
+			<div class="shop-img">
+				<img src="../dist/assets/shop-anounce.jpg" alt="">				
 			</div>
-			<div class="box1">				
+			<div class="shop-about">
 				<p>Lorem ipsum lorem dolor</p>
-				<h1>Lorem ipsum dolor sit amet</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur
+				<h1>Lorem ipsum	dolor sit amet</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur
 					adipiscing elit, sed do eiusmod tempor
 					incididunt ut labore et dolore magna
 					aliqua. Metus vulputate eu scelerisque
@@ -161,26 +161,24 @@
 					semper feugiat nibh sed pulvinar proin
 					gravida.
 				</p>
-				<div class="btn-box">
-					<button class=" glow-on-hover" type="button">Call-to-action ></button>
-				</div>				
+				<button class="btn-shop">Call-to-action ></button>
+			</div>	
+			<div class="swiper-shop">
+				
+			<!-- Swiper -->
+			<div class="swiper">
+				<div class="swiper-wrapper">
+
+				<div class="swiper-slide"><img src="../dist/assets/swiper2.jpg"></div>
+				<div class="swiper-slide"><img src="../dist/assets/swiper3.jpg"></div>
+
 			</div>
-			
+	    	<!-- Add Pagination -->
+	    	<div class="swiper-pagination"></div>
+  			</div>
 
-			<div class="box-swiper">
-				<!-- Swiper -->
-				<div class="swiper">
-					<div class="swiper-wrapper">
-
-					<div class="swiper-slide"><img src="../dist/assets/swiper2.jpg"></div>
-					<div class="swiper-slide"><img src="../dist/assets/swiper3.jpg"></div>
-					<div class="swiper-slide"><img src="../dist/assets/swiper4.jpg"></div>
-
-				</div>
-				<!-- Add Pagination -->
-				<div class="swiper-pagination"></div>
-				</div>
-			</div>			
+			</div>										
+	
 		</section>
 
 		<section id="insta">			
@@ -266,7 +264,9 @@
 		</div> 
 					
 		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script src="js/script.js"></script>
+
 	</body>
 	
 </html>
