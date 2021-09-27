@@ -4,22 +4,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<title>Vnda - Tecnologia em E-commerce</title>
 		
 		<!-- Css Style-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		<!-- Normalize css-->
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		
 		<!-- Font Awesome-->
-		<script defer="defer" src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
-		
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 		
 		<!-- Swiper -->
-		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>	
 		
 	</head>
 	
@@ -27,7 +21,7 @@
 		
 		<header id="header">
 			
-			<a id="logo" href="">Logo</a>
+			<img id="logo" src="../dist/assets/logo.svg"></a>
 			
 			<nav id="nav">
 				
@@ -44,9 +38,9 @@
 					<button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
 						<span id="hamburger"></span>
 					</button>
-					<li><a href="#" class="fas fa-search" style="width: 25px; height: 25px;"></a></li>
-					<li><a href="#" class="far fa-user-circle" style="width: 25px; height: 25px;"></a></li>
-					<li><a href="#" class="fas fa-shopping-cart" style="width: 25px; height: 30px;"></a></li>
+					<li><img href="#" src="../dist/assets/search.svg" style="width: 25px; height: 25px;"></a></li>
+					<li><img href="#" src="../dist/assets/user.svg" style="width: 25px; height: 25px;"></a></li>
+					<li><img href="#" src="../dist/assets/cesta.svg" style="width: 25px; height: 25px;"></a></li>
 				</ul>
 			</div>	
 			
@@ -57,9 +51,9 @@
 			<div class="swiper">
 				<div class="swiper-wrapper">
 
-				<div class="swiper-slide"><img src="imagens/img-banner1.jpg"></div>
-				<div class="swiper-slide"><img src="imagens/img-banner2.jpg"></div>
-				<div class="swiper-slide"><img src="imagens/img-banner3.jpg"></div>
+				<div class="swiper-slide"><img src="../dist/assets/img-banner1.jpg"></div>
+				<div class="swiper-slide"><img src="../dist/assets/img-banner2.jpg"></div>
+				<div class="swiper-slide"><img src="../dist/assets/img-banner3.jpg"></div>
 
 			</div>
 	    	<!-- Add Pagination -->
@@ -68,86 +62,210 @@
 
 		</section>
 
-		<section id="portfolio">
-			<div>				
-				<img src="imagens/img-redonda1.jpg">
+		<section class="curved">
+			<div class="container curved-images">
+			  <a class="round-links" data-anime="up" href="#">
+				<img class="round-img" src="../dist/assets/img-redonda1.jpg" alt="tendencias">
+			  </a>
+			  <a class="round-links" data-anime="up" href="#">
+				<img class="round-img" src="../dist/assets/img-redonda2.jpg" alt="tendencias">
+			  </a>
+			  <a class="round-links" data-anime="up" href="#">
+				<img class="round-img" src="../dist/assets/img-redonda3.jpg" alt="tendencias">
+			  </a>
+			  <a class="round-links" data-anime="up" href="#">
+				<img class="round-img" src="../dist/assets/img-redonda4.jpg" alt="tendencias">
+			  </a>
+			  <a class="round-links" data-anime="up" href="#">
+				<img class="round-img" src="../dist/assets/img-redonda5.jpg" alt="tendencias">
+			  </a>
+			  <a class="round-links" data-anime="up" href="#">
+				<img class="round-img" src="../dist/assets/img-redonda6.jpg" alt="tendencias">
+			  </a>
 			</div>
+		  </section>
+	  
+		<section class="cases-background">
+		<div class="container cases">
+			<div class="text-case"> 
+			<p>Lorem ipsum lorem dolor</p>
+			<h2 class="title-case">
+				Lorem ipsum dolor sit amet
+			</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur
+				adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna
+				aliqua. Metus vulputate eu scelerisque
+				felis imperdiet proin fermentum. Praesent
+				semper feugiat nibh sed pulvinar proin
+				gravida.
+			</p>
+	
+			<img class="arrow" src="../dist/assets/arrow.svg" alt="flecha">
+			</div>
+	
+			<div class="banners">
 			<div>
-				<img src="imagens/img-redonda2.jpg">
-			</div>
-			
-			<div>
-				<img src="imagens/img-redonda3.jpg">
-			</div>
-			
-			<div>
-				<img src="imagens/img-redonda4.jpg">
-			</div>
-			<div>
-				<img src="imagens/img-redonda5.jpg">
-			</div>
-			
-			<div>
-				<img src="imagens/img-redonda6.jpg">
-			</div>
-
-		</section>
-
-		<section id="case">
-
-			<div class="text-case">
-				<p>Lorem ipsum lorem dolor</p>
-				<h1>Lorem ipsum dolor sit amet</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur 
-					adipiscing elit, sed do eiusmod tempor 
-					incididunt ut labore et dolore magna 
-					aliqua. Metus vulputate eu scelerisque 
-					felis imperdiet proin fermentum. Praesent 
-					semper feugiat nibh sed pulvinar proin 
-					gravida.
+				<img class="banners-img" src="../dist/assets/img-case1.jpg" alt="mae e filha">
+				<div class="banner-text">
+				<h5 class="banner-title">Título do banner</h5>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit, sed do eiusmod tempo.  
 				</p>
-				<img class="icon-arrow" src="imagens/arrow-down.png">
+				</div>
 			</div>
-
-			<div class="case1">
-				<div class="content-case">
-					<img src="imagens/img-case1.jpg">
-					<h4>Título do banner</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur 
-						adipiscing elit, sed do eiusmod tempo.
-					</p>
-				</div>		
-												
-			</div>
-
-			<div class="case2">
-				<div class="content-case">				
-					<img src="imagens/img-case3.jpg">
-					<h4>Título do banner</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur 
-						adipiscing elit, sed do eiusmod tempo.
+	
+			<div class="banners-secondary">
+				<div class="small-banner" data-anime="right">
+				<img class="small-img" src="../dist/assets/img-case3.jpg" alt="">
+				<div class="banner-text">
+					<h5 class="banner-title">Título do banner</h5>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit, sed do eiusmod tempo.  
 					</p>
 				</div>
-				<div class="content-case">				
-					<img src="imagens/img-case2.jpg">
-					<h4>Título do banner</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur 
-						adipiscing elit, sed do eiusmod tempo.
+				</div>
+				
+				<img class="banners-img" src="../dist/assets/img-case2.jpg" alt="">
+				<div class="banner-text">
+					<h5 class="banner-title">Título do banner</h5>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit, sed do eiusmod tempo.  
 					</p>
-				</div>		
+				</div>
 			</div>
+			</div>
+		</div>
 		</section>
 
-
-
+		<div class="space">			
+		</div>
 
 		<section id="shop">
-			<div class="">
-				<p>asd</p>
+			<div class="box-img">
+				<img class="img-shop" src="../dist/assets/shop-anounce.jpg">
+			</div>
+			<div class="box1">				
+				<p>Lorem ipsum lorem dolor</p>
+				<h1>Lorem ipsum dolor sit amet</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna
+					aliqua. Metus vulputate eu scelerisque
+					felis imperdiet proin fermentum. Praesent
+					semper feugiat nibh sed pulvinar proin
+					gravida.
+				</p>
+				<div class="btn-box">
+					<button class=" glow-on-hover" type="button">Call-to-action ></button>
+				</div>				
+			</div>
+			
+
+			<div class="box-swiper">
+				<!-- Swiper -->
+				<div class="swiper">
+					<div class="swiper-wrapper">
+
+					<div class="swiper-slide"><img src="../dist/assets/swiper2.jpg"></div>
+					<div class="swiper-slide"><img src="../dist/assets/swiper3.jpg"></div>
+					<div class="swiper-slide"><img src="../dist/assets/swiper4.jpg"></div>
+
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+				</div>
 			</div>			
 		</section>
-		
-		
+
+		<section id="insta">			
+			<div class="insta-img">
+				<img class="img" src="../dist/assets/img-insta1.jpg">
+			</div>
+			<div class="text-insta">
+				<h1>@vndaecommerce</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna
+					aliqua. Metus vulputate eu scelerisque
+					felis imperdiet proin fermentum.
+					Praesent semper feugiat nibh sed
+					pulvinar proin gravida.				
+				</p>
+			</div>
+			<div class="insta-img">
+				<img class="img" src="../dist/assets/img-insta2.jpg">
+			</div>		
+			
+		</section>
+
+		<section id="division">
+			<hr/>
+			<div class="">
+				<img class="logo-footer" src="../dist/assets/logo.svg">
+			</div> 
+			<hr/>
+		</section>
+
+		<footer id="footer">
+			<div class="footer-left">
+
+				<div>
+					<h2>menu</h2>
+				</div>
+				<div></div>
+					<ul>
+						<li>
+							<a>Submenu</a>
+						</li>
+						<li>
+							<a>Submenu</a>
+						</li>
+					</ul>									
+				<div>
+					<ul>
+						<li>
+							<a>Submenu</a>
+						</li>
+						<li>
+							<a>Submenu</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-center">
+				<h2>menu</h2>
+					<div class="input-container">
+						<input id="name" class="input" type="text" />
+						<label class="label" for="name">Email</label>
+						<button>Enviar ></button>	
+					</div>
+										
+			</div>
+			<div class="footer-right">
+				<h2>menu</h2>
+				<div class="social-footer">					
+					<img src="../dist/assets/instagram.svg">
+					<p>social</p>					
+				</div>
+				<div class="social-footer">
+					<img src="../dist/assets/facebook.svg">
+					<p>social</p>
+				</div>									
+			</div>
+
+		</footer>
+
+		<div class="site-footer">
+			<p>&copy; Vnda - Tecnologia para ecommerce - CNPJ 00.0000.000/0001-00</p>
+		</div> 
+					
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 	
