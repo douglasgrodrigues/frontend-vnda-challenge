@@ -117,7 +117,7 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #D8D8D8;
+  background: red;
 }
 
 #icons ul {
