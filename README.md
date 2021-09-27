@@ -20,6 +20,6 @@ npm run start
 
 # Interface:
 
-<img src="![vnda](https://user-images.githubusercontent.com/60372253/134999625-f983e4c5-6526-4d36-9d3d-ac9d60a48c2f.png)"/>
+![vnda](https://user-images.githubusercontent.com/60372253/134999625-f983e4c5-6526-4d36-9d3d-ac9d60a48c2f.png)
 
 
